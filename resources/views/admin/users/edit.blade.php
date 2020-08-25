@@ -6,7 +6,7 @@
 
 @section('content')
 	{!! Form::model($item, [
-			'action' => ['UserController@update', $item->id],
+			'action' => ['Admin\UserController@update', $item->id],
 			'method' => 'put', 
 			'files' => true
 		])

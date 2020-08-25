@@ -8,11 +8,12 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Administrator - Sistem Pakar THT</title>
 
     <!-- Styles -->
 	<link href="{{ mix('/css/app.css') }}" rel="stylesheet"> 
-	{{-- <link href="{{ mix('/css/rtl.css') }}" rel="stylesheet">  --}}
+	
+    <script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
 	
 	@yield('css')
 
@@ -47,8 +48,8 @@
 
             <!-- ### $App Screen Footer ### -->
             <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600">
-                <span>Copyright © 2017 Designed by
-                    <a href="https://colorlib.com" target='_blank' title="Colorlib">Colorlib</a>. All rights reserved.</span>
+                <span>Copyright © 2020 Designed by
+                    <a href="#" target='_blank' title="Aribah">Aribah Afif</a>.<span>
             </footer>
         </div>
     </div>
